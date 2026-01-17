@@ -21,7 +21,7 @@ FRUIT_MODEL_URL = "https://drive.google.com/uc?id=1WcgG4lM7G0-x6Q2h_JEV_sHUDACpW
 VEG_MODEL_URL   = "https://drive.google.com/uc?id=1OZvTjZZCv5PvRaAKdEikCWCk5_lWpRJ8"
 
 FRUIT_MODEL_PATH = "fruit_model.h5"
-VEG_MODEL_PATH = "vegetable_model.h5"
+VEG_MODEL_PATH = "veg_model.h5"
 
 def download_model(url, path):
     if not os.path.exists(path):
