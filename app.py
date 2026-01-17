@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-from tensorflow.keras.models import load_model
 import google.generativeai as genai
 import os
 import urllib.request
