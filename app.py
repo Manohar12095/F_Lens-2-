@@ -4,7 +4,7 @@ from PIL import Image
 import google.generativeai as genai
 import os
 import urllib.request
-
+from tensorflow.keras.models import load_model
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
     page_title="Fruit & Vegetable Recognition",
